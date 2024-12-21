@@ -25,10 +25,20 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="EAC-PPM"
+              description="EAC PPM is an innovative system designed to streamline and unify pharmaceutical transactions across the East African Community (EAC) member states. It serves as a centralized platform for managing the pooled procurement of essential medicines and health commodities, promoting efficiency, transparency, and cost-effectiveness.
+
+The system enables:
+
+Collaborative Procurement: Aggregates orders from EAC countries to negotiate better pricing and ensure consistent supply.
+Inventory Management: Tracks stock levels and ensures timely replenishment across member states.
+Transaction Unification: Standardizes procurement processes, reducing redundancies and improving accountability.
+Data-Driven Insights: Provides analytics and reporting tools for informed decision-making on pharmaceutical needs and expenditures.
+Compliance and Quality Assurance: Ensures that procured items meet international standards and regulations.
+
+EAC PPM is a transformative solution aimed at strengthening regional cooperation in health systems, reducing costs, and enhancing access to essential medicines for millions across the EAC."
+
+              demoLink="https://ppm.eac.int"
             />
           </Col>
 
@@ -36,23 +46,22 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Ecres Solution"
+              description="Ecres Solution is a dynamic platform tailored for experts in the pharmaceutical and healthcare fields to register and contribute to critical assignments, particularly during health emergencies and outbreaks. This innovative system connects specialized professionals with tasks that require immediate expertise, ensuring a swift and coordinated response to public health challenges.
+
+The solution enables:
+
+Expert Registration: Allows pharmaceutical and healthcare professionals to create profiles, detailing their areas of expertise and availability for assignments.
+Targeted Task Allocation: Matches experts with assignments based on their qualifications and the specific requirements of ongoing health outbreaks.
+Real-Time Notifications: Provides timely alerts about emerging outbreaks and related assignments, enabling experts to respond proactively.
+Centralized Database: Maintains a repository of registered experts, assignments, and outbreak data to facilitate efficient task management.
+Collaborative Engagement: Promotes teamwork by enabling multiple experts to work together on complex assignments.
+Ecres Solution empowers the pharmaceutical and healthcare communities to combat outbreaks effectively, leveraging expertise and technology to protect public health and save lives."
+
+              demoLink="https://ecres.nsl-consultancy.africa:150"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -60,8 +69,8 @@ function Projects() {
               isBlog={false}
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/soumyajit4419/morris"
+            // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -71,22 +80,11 @@ function Projects() {
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/morris"
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
